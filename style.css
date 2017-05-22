@@ -1,0 +1,264 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    background: #f3f3f3;
+    font-family: RobotoRegular;
+}
+
+form{
+    max-width: 500px;
+    padding: 0 16px;
+
+    margin-top: 50px;
+}
+
+label, input{
+    display: block;
+}
+
+
+h1{
+    color: #F57C00;
+    text-align: center;
+}
+
+
+.container{
+    margin-top: 50px;
+    background: #fff;
+    padding: 40px;
+
+    box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;;
+}
+
+
+input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-wrapper {
+    position: relative;
+    max-width: 440px;
+    margin: 35px auto 0;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #F57C00;
+    color: #636363;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid green;
+}
+
+#input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #F57C00;
+    margin-bottom: 30px;
+}
+
+.bar {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    background: #F57C00;
+
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all ;
+    -ms-transition: 0.2s ease all ;
+    -o-transition: 0.2s ease all ;
+    transition: 0.2s ease all ;
+}
+
+label {
+    color: #F57C00;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    font-family: RobotoRegular !important;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 16px;
+    /*    color: #5264AE;*/
+    font-family: RobotoRegular !important;
+}
+
+input:focus ~ .bar, input:valid ~ .bar {
+    width: 100%;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    background-color: transparent;
+}
+
+
+.login-button{
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: RobotoMedium;
+
+    width: 100%;
+    max-width: 250px;
+    background: #FF9800;
+    border-bottom: 2px solid #E65100;
+    border: none;
+    color: #FFF3E0;
+    padding: 12px 10px;
+
+    -webkit-transition: 0.2s ease all;
+    -moz-transition:  0.2s ease all ;
+    -ms-transition:  0.2s ease all ;
+    -o-transition:  0.2s ease all ;
+    transition:  0.2s ease all ;
+}
+
+.login-button:hover{
+    background: #F57C00;
+
+    -webkit-transition: 0.2s ease all;
+    -moz-transition:  0.2s ease all ;
+    -ms-transition:  0.2s ease all ;
+    -o-transition:  0.2s ease all ;
+    transition:  0.2s ease all ;
+}
+
+.error{
+    padding-top: 20px;
+    font-family: RobotoBold;
+
+    text-align: center;
+    color: #F57C00;
+}
+
+.header{
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    padding-left: 20px;
+    background: #FF9800;
+
+    margin-bottom: 20px;
+}
+
+.header p{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #F5F5F5;
+}
+
+.logout-button{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+
+    background: url("img/logout.png") no-repeat center center;
+    background-size: cover;
+}
+
+.site-list{
+    padding-left: 0px;
+}
+
+.site-list li{
+    padding-left: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    cursor: default;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.site-name{
+    font-size: 16px;
+    font-family: RobotoRegular;
+    color: #525252;
+}
+
+.site-title{
+    color: #FB8C00;
+    font-size: 18px;
+}
+
+.site-url a{
+    text-decoration: none;
+    color: #797979;
+}
+
+.site-url a:hover{
+    color: #b5b5b5;
+}
+
+
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url('fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url('fonts/Roboto-Medium.ttf');
+}

@@ -1,0 +1,63 @@
+[14-Dec-2016 14:12:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 11
+[14-Dec-2016 14:22:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:23:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 17
+[14-Dec-2016 14:29:52 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:29:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:29:52 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:29:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:31:34 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:31:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:31:34 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:31:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:32:04 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:32:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:32:05 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:32:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/effix/public_html/testoldalak/index.php:10) in /home/effix/public_html/testoldalak/login.php on line 3
+[14-Dec-2016 14:50:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/effix/public_html/testoldalak/pages.php on line 8
+[14-Dec-2016 15:09:37 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:11:07 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:11:14 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:11:16 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:11:17 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:21 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:23 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:23 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:23 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:23 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:24 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:24 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:12:24 UTC] PHP Warning:  mysqli::query(): Empty query in /home/effix/public_html/testoldalak/pages.php on line 31
+[14-Dec-2016 15:15:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/effix/public_html/testoldalak/pages.php on line 39
+[14-Dec-2016 15:23:49 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 17
+[14-Dec-2016 15:24:02 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 23
+[14-Dec-2016 15:24:04 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 23
+[14-Dec-2016 15:24:04 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 23
+[14-Dec-2016 15:24:04 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 23
+[14-Dec-2016 15:24:04 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/effix/public_html/testoldalak/pages.php on line 23
+[14-Dec-2016 15:44:25 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/effix/public_html/testoldalak/pages.php on line 53
+[14-Dec-2016 15:44:31 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /home/effix/public_html/testoldalak/pages.php on line 53
+[14-Dec-2016 15:44:31 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /home/effix/public_html/testoldalak/pages.php on line 53
+[14-Dec-2016 15:51:15 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'effix'@'localhost' to database 'effix_test8' in /home/effix/public_html/testoldalak/pages.php on line 56
+[14-Dec-2016 15:51:15 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 57
+[14-Dec-2016 15:52:41 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'effix'@'localhost' to database 'effix_test8' in /home/effix/public_html/testoldalak/pages.php on line 56
+[14-Dec-2016 15:52:41 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 57
+[08-Mar-2017 08:25:39 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[08-Mar-2017 08:25:39 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
+[13-Mar-2017 14:23:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[13-Mar-2017 14:23:49 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
+[13-Mar-2017 14:24:06 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[13-Mar-2017 14:24:06 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
+[13-Mar-2017 14:24:09 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[13-Mar-2017 14:24:09 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
+[13-Mar-2017 14:24:29 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[13-Mar-2017 14:24:29 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
+[13-Mar-2017 14:24:44 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/effix/public_html/testoldalak/pages.php on line 12
+[13-Mar-2017 14:24:44 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/effix/public_html/testoldalak/pages.php on line 13
